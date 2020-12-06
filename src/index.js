@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom';
 
 function getButtonText(){
     return 'Click on me!'
-}//// could be: const buttonText = 'Click me!' then pass the variable inside the button tag.
+}//// could be: const buttonText = 'Click me!' then insert the variable inside the button tag.
+ //// could be even: const buttonText = {text:'click me!'} then insert {buttonText.text} inside the button tag.
 
 // Create a react component
 const App = () => {
